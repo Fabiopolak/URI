@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+value = int(input())
+print('%d' %value)
+print('%d nota(s) de R$ 100,00' %(value/100))
+print('%d nota(s) de R$ 50,00' %((value%100)/50))
+print('%d nota(s) de R$ 20,00' %(((value%100)%50)/20))
+print('%d nota(s) de R$ 10,00' %((((value%100)%50)%20)/10))
+print('%d nota(s) de R$ 5,00' %(((((value%100)%50)%20)%10)/5))
+print('%d nota(s) de R$ 2,00' %((((((value%100)%50)%20)%10)%5)/2))
+print('%d nota(s) de R$ 1,00' %(((((((value%100)%50)%20)%10)%5)%2)/1))
